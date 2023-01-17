@@ -13,6 +13,12 @@ def path_to_gs_params(mask_name):
         append = "" # this is the default mask
     return os.path.join(path_to_ellipses,"results","grid_search_l1"+append,"grid_search_l1_fourier_all.pkl.cpu.pkl")
 
+def path_to_gs_params_wavelets(mask_name):
+    append = "_" + mask_name
+    if mask_name == "radial40":
+        append = "" # this is the default mask
+    return os.path.join(path_to_ellipses,"results","grid_search_l1"+append,"grid_search_l1_wavelet_all.pkl")
+
 path_to_resources = os.path.join("resources")
 path_to_results = os.path.join("results")
 path_to_figs = os.path.join(path_to_results,"figs")
