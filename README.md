@@ -1,5 +1,9 @@
 # LocalAdvMRI
 
+This is forked from https://gitlab.math.ethz.ch/tandrig/localadvmri
+
+This exists to make available some code I wrote for a university project
+
 Code for the paper 'Localized adversarial artifacts for compressed sensing MRI'
 
 To run the code, first download and install https://github.com/jmaces/robust-nets.
